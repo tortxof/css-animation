@@ -4,6 +4,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+code {
+  border-radius: 0.5em;
+}
+
 .transition-example-container {
   display: flex;
   justify-content: center;
