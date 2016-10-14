@@ -16,10 +16,10 @@ class: center, middle
 
 # Different ways to animate.
 
-The transition property is used to transition a css property from one value to
-another. For example, animating a hover effect.
+The **transition** property is used to transition a css property from one value
+to another. For example, animating a hover effect.
 
-The animation property is used to animate css properties based on keyframes.
+The **animation** property is used to animate css properties based on keyframes.
 Used for looping animations, or automatic animations.
 
 ---
