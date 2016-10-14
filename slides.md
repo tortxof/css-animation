@@ -7,10 +7,10 @@ class: center, middle
 
 # What should we animate?
 
-- transform: translate()
-- transform: rotate()
-- transform: scale()
-- opacity:
+- `transform: translate()`
+- `transform: rotate()`
+- `transform: scale()`
+- `opacity:`
 
 ---
 
@@ -25,10 +25,6 @@ Used for looping animations, or automatic animations.
 ---
 
 # Transition Property
-
-- property | duration
-- property | duration | delay
-- property | duration | timing function | delay
 
 ```css
 nav a {
@@ -53,6 +49,25 @@ nav a {
   transition: all 1s ease-in-out 0.5s
 }
 ```
+
+---
+
+# Transition Example
+
+```css
+.transition-example {
+  background-color: #66d;
+  transition: background-color 500ms;
+}
+
+.transition-example:hover {
+  background-color: #5e5;
+}
+```
+
+<div class="transition-example-container">
+<a href="#" class="transition-example">Transition Example</a>
+</div>
 
 ---
 
