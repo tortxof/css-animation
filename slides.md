@@ -73,13 +73,21 @@ nav a {
 
 # Animation Property
 
-- duration | name
-- duration | timing function | delay | name
-- duration | timing function | delay | iteration count | direction | fill mode | play state | name
+```css
+.pulse {
+  animation: 2s pulse
+}
+```
 
 ```css
 .spinner {
   animation: 2s linear 0s infinite spin;
+}
+```
+
+```css
+.loader {
+  animation: 10s ease-in-out 2s forwards slide;
 }
 ```
 
