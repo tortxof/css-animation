@@ -1,19 +1,53 @@
- @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: hsl(0 , 0%, 25%);;
 }
 
-code {
+pre code {
   border-radius: 0.5em;
 }
 
-.transition-example-container {
+code {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.remark-code {
+  font-size: 1.1em;
+}
+
+#slide-title {
+  perspective: 100vw
+}
+
+#slide-title h1 {
+  display: block;
+  animation: 3s ease-out 0s both title_flyin;
+  transform-origin: 80% top;
+}
+
+@keyframes title_flyin {
+  0% {
+    transform: translate3d(0, 0, 20vw) rotate3d(-1, -1, .5, -30deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate3d(0, 0, 0, 0deg);
+    opacity: 1;
+  }
+}
+
+#slide-transition-example .button-container {
   display: flex;
   justify-content: center;
 }
 
-.transition-example {
+#slide-transition-example .button {
   padding: 1ch;
   background-color: #66d;
   color: white;
@@ -21,6 +55,6 @@ code {
   transition: background-color 500ms;
 }
 
-.transition-example:hover {
+#slide-transition-example .button:hover {
   background-color: #5e5;
 }

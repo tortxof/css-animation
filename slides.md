@@ -1,5 +1,8 @@
 
+---
+
 class: center, middle
+name: title
 
 # CSS Animation
 
@@ -52,21 +55,23 @@ nav a {
 
 ---
 
+name: transition-example
+
 # Transition Example
 
 ```css
-.transition-example {
+.button {
   background-color: #66d;
   transition: background-color 500ms;
 }
 
-.transition-example:hover {
+.button:hover {
   background-color: #5e5;
 }
 ```
 
-<div class="transition-example-container">
-<a href="#" class="transition-example">Transition Example</a>
+<div class="button-container">
+<a href="#" class="button">Transition Example</a>
 </div>
 
 ---
