@@ -113,3 +113,32 @@ Used to build a time line of css properties over time.
   }
 }
 ```
+
+---
+
+name: animation-example
+
+# Animation Example
+
+```css
+.spinner {
+  animation: 600ms linear 0s infinite spin;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+```
+
+<div class="spinner-container">
+  <div class="spinner"></div>
+</div>
+
+---
+
+# Perspective

@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  color: hsl(0 , 0%, 25%);;
+  color: #444;
 }
 
 pre code {
@@ -57,4 +57,24 @@ code {
 
 #slide-transition-example .button:hover {
   background-color: #5e5;
+}
+
+#slide-animation-example .spinner {
+  margin: 0 auto;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  border: 8px solid #ccc;
+  border-top-color: purple;
+  border-right-color: purple;
+  animation: 600ms linear 0s infinite spin;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
