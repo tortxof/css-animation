@@ -55,7 +55,7 @@ nav a {
 
 ---
 
-name: transition-example
+name: transition-example-1
 
 # Transition Example
 
@@ -71,7 +71,30 @@ name: transition-example
 ```
 
 <div class="button-container">
-<a href="#" class="button">Transition Example</a>
+  <button class="button">Transition Example</button>
+</div>
+
+---
+
+name: transition-example-2
+
+# Transition Example
+
+```css
+.button {
+  background-color: hsl(240, 40%, 60%);
+  color: white;
+  transition: all 1s;
+}
+
+.button.success {
+  background-color: hsl(120, 100%, 70%);
+  color: black;
+}
+```
+
+<div class="button-container">
+  <button id="transition-example-2-button" class="button">Submit</button>
 </div>
 
 ---

@@ -6,6 +6,13 @@ body {
   color: #444;
 }
 
+button {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  border: 0;
+  padding: 1ch;
+}
+
 pre code {
   border-radius: 0.5em;
 }
@@ -42,21 +49,35 @@ code {
   }
 }
 
-#slide-transition-example .button-container {
+#slide-transition-example-1 .button-container {
   display: flex;
   justify-content: center;
 }
 
-#slide-transition-example .button {
-  padding: 1ch;
+#slide-transition-example-1 .button {
   background-color: #66d;
   color: white;
-  text-decoration: none;
   transition: background-color 500ms;
 }
 
-#slide-transition-example .button:hover {
+#slide-transition-example-1 .button:hover {
   background-color: #5e5;
+}
+
+#slide-transition-example-2 .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#slide-transition-example-2 .button {
+  background-color: hsl(240, 40%, 60%);
+  color: white;
+  transition: all 1s ease-in;
+}
+
+#slide-transition-example-2 .button.success {
+  background-color: hsl(120, 100%, 70%);
+  color: black;
 }
 
 #slide-animation-example .spinner {
