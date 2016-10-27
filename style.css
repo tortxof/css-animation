@@ -6,6 +6,10 @@ body {
   color: #444;
 }
 
+a {
+  color: cornflowerblue;
+}
+
 button {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
