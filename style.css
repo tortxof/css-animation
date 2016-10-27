@@ -147,6 +147,47 @@ code {
   }
 }
 
+#slide-timing-examples .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#slide-timing-examples .container div {
+  margin: 1.5em 0;
+}
+
+#slide-timing-examples .linear {
+  animation: 5s linear 0s infinite timing;
+}
+
+#slide-timing-examples .ease {
+  animation: 5s ease 0s infinite timing;
+}
+
+#slide-timing-examples .ease-in {
+  animation: 5s ease-in 0s infinite timing;
+}
+
+#slide-timing-examples .ease-out {
+  animation: 5s ease-out 0s infinite timing;
+}
+
+#slide-timing-examples .ease-in-out {
+  animation: 5s ease-in-out 0s infinite timing;
+}
+
+
+@keyframes timing {
+  0% {
+    transform: translateX(-10em);
+  }
+  100% {
+    transform: translateX(10em)
+  }
+}
+
+
 #slide-perspective-axis-translate .translate-container {
   font-size: 2em;
   margin-top: 4em;

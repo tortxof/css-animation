@@ -206,6 +206,20 @@ name: animation-example-2
 
 ---
 
+name: timing-examples
+
+# Timimg Functions
+
+<div class="container">
+  <div class="linear">linear</div>
+  <div class="ease">ease</div>
+  <div class="ease-in">ease-in</div>
+  <div class="ease-out">ease-out</div>
+  <div class="ease-in-out">ease-in-out</div>
+</div>
+
+---
+
 # Perspective
 
 When an element has the **perspective** property set, it's children will be
