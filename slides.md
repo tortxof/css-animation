@@ -55,6 +55,26 @@ nav a {
 
 ---
 
+name: transition-example-0
+
+# Transition Example
+
+```css
+.button {
+  background-color: #66d;
+}
+
+.button:hover {
+  background-color: #5e5;
+}
+```
+
+<div class="button-container">
+  <button class="button">Transition Example</button>
+</div>
+
+---
+
 name: transition-example-1
 
 # Transition Example

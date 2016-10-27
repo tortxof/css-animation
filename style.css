@@ -49,6 +49,21 @@ code {
   }
 }
 
+#slide-transition-example-0 .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#slide-transition-example-0 .button {
+  background-color: #66d;
+  color: white;
+}
+
+#slide-transition-example-0 .button:hover {
+  background-color: #5e5;
+}
+
+
 #slide-transition-example-1 .button-container {
   display: flex;
   justify-content: center;
