@@ -208,7 +208,7 @@ name: animation-example-2
 
 name: timing-examples
 
-# Timimg Functions
+# Timing Functions
 
 <div class="container">
   <div class="linear">linear</div>
