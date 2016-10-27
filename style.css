@@ -95,7 +95,7 @@ code {
   color: black;
 }
 
-#slide-animation-example .spinner {
+#slide-animation-example-1 .spinner {
   margin: 0 auto;
   width: 4em;
   height: 4em;
@@ -112,5 +112,33 @@ code {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+#slide-animation-example-2 .pulse-container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+#slide-animation-example-2 .pulse {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  border: 8px solid hsl(30, 90%, 60%);
+  animation: 3s linear 0s infinite pulse;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
   }
 }

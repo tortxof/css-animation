@@ -159,7 +159,7 @@ Used to build a time line of css properties over time.
 
 ---
 
-name: animation-example
+name: animation-example-1
 
 # Animation Example
 
@@ -180,6 +180,28 @@ name: animation-example
 
 <div class="spinner-container">
   <div class="spinner"></div>
+</div>
+
+---
+
+name: animation-example-2
+
+# Animation Example
+
+```css
+.pulse {
+  animation: 3s linear 0s infinite pulse;
+}
+
+@keyframes pulse {
+  0% {transform: scale(0.5); opacity: 0;}
+  50% {opacity: 1;}
+  100% {transform: scale(1.5); opacity: 0;}
+}
+```
+
+<div class="pulse-container">
+  <div class="pulse"></div>
 </div>
 
 ---
