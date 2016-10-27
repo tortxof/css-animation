@@ -329,3 +329,42 @@ name: perspective-example-1
   </div>
   <div class="overlay"></div>
 </div>
+
+---
+
+name: perspective-example-2
+
+# Perspective Example
+
+```css
+.container {position: relative; perspective: 100vh;}
+.popup {
+  opacity: 0;
+  transform-origin: 12em 0;
+  animation: 500ms ease-out 2s forwards popup;
+}
+@keyframes popup {
+  0% {transform: rotateY(-90deg); opacity: 0;}
+  100% {transform: rotateY(0deg); opacity: 1;}
+}
+```
+
+<div class="container">
+  <div class="popup">Hello</div>
+  <div class="text">
+    <p>
+
+    Aenean vel augue ac velit cursus fermentum. Aliquam pretium tellus et
+    facilisis elementum. Pellentesque sodales ut enim at volutpat. Duis
+    imperdiet mi ac auctor placerat. Curabitur eleifend a odio ut tempor.
+    Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc fermentum
+    elit lacus, et efficitur felis gravida quis. Nunc vitae orci at massa
+    bibendum posuere. Aliquam sagittis nulla in nunc tempus, sit amet sagittis
+    mi porttitor. In eget nisl vel magna porttitor convallis. Cras efficitur
+    massa quis erat aliquam, sit amet blandit velit malesuada. Suspendisse
+    imperdiet elit ac mauris vehicula, sit amet condimentum arcu faucibus. Donec
+    vestibulum fermentum ligula euismod eleifend.
+
+    </p>
+  </div>
+</div>
