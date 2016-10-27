@@ -215,3 +215,27 @@ The perspective property sets the distance from the screen to the user.
 
 When set to a value other than `0` or `none`, it creates a 3D space for child
 elements.
+
+---
+
+name: perspective-axis-translate
+
+# Translate with Perspective
+
+<div class="translate-container">
+  <div class="x">translateX</div>
+  <div class="y">translateY</div>
+  <div class="z">translateZ</div>
+</div>
+
+---
+
+name: perspective-axis-rotate
+
+# Rotate with Perspective
+
+<div class="rotate-container">
+  <div class="x">rotateX</div>
+  <div class="y">rotateY</div>
+  <div class="z">rotateZ</div>
+</div>
