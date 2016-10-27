@@ -207,3 +207,11 @@ name: animation-example-2
 ---
 
 # Perspective
+
+When an element has the **perspective** property set, it's children will be
+rendered from a 3D perspective view.
+
+The perspective property sets the distance from the screen to the user.
+
+When set to a value other than `0` or `none`, it creates a 3D space for child
+elements.
