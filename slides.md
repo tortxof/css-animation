@@ -368,3 +368,23 @@ name: perspective-example-2
     </p>
   </div>
 </div>
+
+---
+
+I'm on GitHub: https://github.com/tortxof
+
+These slides are on GitHub: <https://github.com/tortxof/css-animation>
+
+## Resources
+
+Using CSS transitions  
+<https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions>
+
+Using CSS animations  
+<https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations>
+
+Can I use...  
+<http://caniuse.com/>
+
+DevTips YouTube channel  
+<https://www.youtube.com/user/DevTipsForDesigners>
