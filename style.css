@@ -55,12 +55,12 @@ code {
 }
 
 #slide-transition-example-0 .button {
-  background-color: #66d;
+  background-color: hsl(240, 40%, 60%);
   color: white;
 }
 
 #slide-transition-example-0 .button:hover {
-  background-color: #5e5;
+  background-color: hsl(120, 100%, 70%);
 }
 
 
@@ -70,13 +70,13 @@ code {
 }
 
 #slide-transition-example-1 .button {
-  background-color: #66d;
+  background-color: hsl(240, 40%, 60%);
   color: white;
   transition: background-color 500ms;
 }
 
 #slide-transition-example-1 .button:hover {
-  background-color: #5e5;
+  background-color: hsl(120, 100%, 70%);
 }
 
 #slide-transition-example-2 .button-container {
@@ -100,9 +100,9 @@ code {
   width: 4em;
   height: 4em;
   border-radius: 50%;
-  border: 8px solid #ccc;
-  border-top-color: purple;
-  border-right-color: purple;
+  border: 8px solid hsl(0, 0%, 70%);
+  border-top-color: hsl(300, 50%, 30%);
+  border-right-color: hsl(300, 50%, 30%);
   animation: 600ms linear 0s infinite spin;
 }
 

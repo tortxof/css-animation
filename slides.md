@@ -61,11 +61,11 @@ name: transition-example-0
 
 ```css
 .button {
-  background-color: #66d;
+  background-color: hsl(240, 40%, 60%);
 }
 
 .button:hover {
-  background-color: #5e5;
+  background-color: hsl(120, 100%, 70%);
 }
 ```
 
@@ -81,12 +81,12 @@ name: transition-example-1
 
 ```css
 .button {
-  background-color: #66d;
+  background-color: hsl(240, 40%, 60%);
   transition: background-color 500ms;
 }
 
 .button:hover {
-  background-color: #5e5;
+  background-color: hsl(120, 100%, 70%);
 }
 ```
 
